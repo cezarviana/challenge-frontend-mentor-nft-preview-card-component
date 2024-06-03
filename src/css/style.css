@@ -1,0 +1,68 @@
+body{
+    background-color: var(--main-bg)
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--card-bg);
+    width: 320px;
+    height: 600px;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card-image{
+    border-radius: 20px;
+    width: 280px;
+}
+
+.card-description, .days-left, .creator p{
+    color: var(--text-color);
+}
+
+.etherium p{
+    color: var(--eth-text-color);
+}
+
+.card-number{
+    color: var(--title-color);
+    margin-top: 20px;
+}
+
+.card-description{
+    margin-top: 20px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.creator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.creator img{
+    width: 40px;
+    border: solid 2px var(--title-color);
+    border-radius: 50%;
+}
+
+.creator p{
+    margin-left: 15px;
+}
