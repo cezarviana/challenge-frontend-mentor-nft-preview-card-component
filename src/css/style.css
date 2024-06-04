@@ -1,63 +1,90 @@
-body{
+body {
     background-color: var(--main-bg)
 }
 
-main{
+main {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--card-bg);
-    width: 320px;
-    height: 600px;
-    margin-top: 10%;
+    width: 300px;
+    height: 500px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 25px;
 }
 
-.card-image{
+.card-image {
     border-radius: 20px;
-    width: 280px;
+    width: 250px;
 }
 
-.card-description, .days-left, .creator p{
+.card-description,
+.days-left,
+.creator p ,
+.creator a{
     color: var(--text-color);
 }
 
-.etherium p{
+.ethereum p {
     color: var(--eth-text-color);
+    margin-left: 7px;
 }
 
-.card-number{
+.card-number {
     color: var(--title-color);
     margin-top: 20px;
+    font-size: 18px;
 }
 
-.card-description{
+.card-description {
     margin-top: 20px;
+    font-size: 15px;
 }
 
-.card-info{
+.card-info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 20px;
+    font-size: 14px;
+    width: 100%;
 }
 
-.creator{
+.card-info .ethereum {
+    display: flex;
+    flex-direction: row;
+    height: 18px;
+
+}
+
+.card-info .days-left {
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    width: 37%;
+}
+
+.card-info .days-left p {
+    margin-left: 5px;
+}
+
+
+.creator {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-top: 20px;
 }
 
-.creator img{
+.creator img {
     width: 40px;
     border: solid 2px var(--title-color);
     border-radius: 50%;
@@ -65,4 +92,25 @@ main{
 
 .creator p{
     margin-left: 15px;
+}
+
+.creator a{
+    margin-left: 4px;
+    color: var(--title-color);
+}
+
+.card-image a :hover{
+    transition: 0.3s;
+    
+ 
+}
+
+.info a :hover  {
+    transition: 0.3s;
+    color: var(--eth-text-color);
+}
+
+.info .creator-name :hover {
+    transition: 0.3s;
+    color: var(--eth-text-color);
 }
