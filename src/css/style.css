@@ -8,30 +8,65 @@ main {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    padding: 0 25px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     background-color: var(--card-bg);
-    max-width: 300px;
-    height: 520px;
+    max-width: 350px;
     border-radius: 15px;
-    padding: 20px;
+    padding: 25px;
 }
 
-.card-image {
+.card .image-link {
+    position: relative;
+    display: flex;
+}
+
+.card .image-link .card-image {
     border-radius: 15px;
     width: 100%;
+    height: 100%;
 }
 
-.card-title {
+.card .image-link::before{
+    content: '';
+    background-color: var(--eth-text-color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s ease-in;
+    border-radius: 15px;
+}
+
+.card .image-link::after {
+    content: '';
+    background: url(../images/icon-view.svg) no-repeat center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.card .image-link:hover::before {
+    opacity: 0.4;
+}
+
+.card .image-link:hover::after {
+    opacity: 1;
+}
+
+.card .card-title {
     color: var(--title-color);
     margin-top: 20px;
     font-size: 18px;
 }
 
-.card-description {
+.card .card-description {
     margin-top: 20px;
     font-size: 15px;
 }
@@ -43,7 +78,7 @@ main {
     font-weight: 300;
 }
 
-.nft-info {
+.card .nft-info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -65,9 +100,6 @@ main {
 .nft-info .days-left::before {
     content: '';
     background: url(../images/icon-clock.svg) no-repeat center;
-    /* background-image: url(../images/icon-clock.svg) no repeat;
-    background-repeat: no-repeat;
-    background-position: center; */
     width: 15px;
     display: inline-block;
     margin-right: 4px;
@@ -82,7 +114,6 @@ main {
     display: inline-block;
     margin-right: 7px;
 }
-
 
 .card .creator {
     display: flex;
@@ -103,15 +134,11 @@ main {
     margin-left: 15px;
 }
 
-.creator a {
+.card .creator .text .creator-name {
     color: var(--title-color);
 }
 
-.card a :hover {
-    transition: 0.3s;
-    color: var(--eth-text-color);
-}
-
-.creator a :hover {
+.card .card-title:hover,
+.card .creator .text .creator-name:hover {
     color: var(--eth-text-color);
 }
