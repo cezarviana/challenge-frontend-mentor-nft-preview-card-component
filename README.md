@@ -1,6 +1,7 @@
 # Challenge - Frontend Mentor = NFT Preview Card Component
 
-Um projeto para testar o conhecimento de HTML e, principalmente, CSS. Pode acessar o projeto criado aqui: [NFT preview card component](https://cezarviana.github.io/challenge-frontend-mentor-nft-preview-card-component/).
+Um projeto para testar o conhecimento de HTML e, principalmente, CSS. 
+Acesse o projeto criado aqui: [NFT preview card component](https://cezarviana.github.io/challenge-frontend-mentor-nft-preview-card-component/).
 
 ## Descrição da tarefa
 
