@@ -56,7 +56,7 @@ Um projeto para testar o conhecimento de HTML e, principalmente, CSS.
 git clone <https://github.com/cezarviana/challenge-frontend-mentor-nft-preview-card-component.git>
 ***
 
-## O Que eu aprendi
+## O que eu aprendi?
 
 Aprendi a fazer o hover com sobreposição de background e imagem para sobrepor a imagem original, quando o cursor do mouse passa por cima. Além de adicionar uma imagem no HTML, via CSS.
 
