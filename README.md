@@ -27,16 +27,20 @@ Um projeto para testar o conhecimento de HTML e, principalmente, CSS.
 ### Imagens do Design a ser seguido
 <div align="center">
 <img src="./src/design/desktop-design.jpg" style="height: 300px;"> <br>
-<div align="center">
+
 <img src="./src/design/mobile-design.jpg" style="height: 300px;"> <br>
-<div align="center">
-<img src="./src/design/active-states.jpg" style="height: 300px;"> <br>
+
+<img src="./src/design/active-states.jpg" style="height: 300px;">
+</div>
 
 
 ## Imagens do Design criado
 <div align="center">
+
 <img src="./src/design/my-design-desktop.png"  style="height: 300px; text-align: center;"> <br>
+
 <img src="./src/design/my-design-mobile.png"  style="height: 300px; text-align: center;"> <br>
+
 <img src="./src/design/my-design-hover-states.png"  style="height: 300px; text-align: center;">
 </div>
 
