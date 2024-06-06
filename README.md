@@ -1,6 +1,6 @@
 # Challenge - Frontend Mentor = NFT Preview Card Component
 
-Um projeto para testar o conhecimento de HTML e, principalmente, CSS.
+Um projeto para testar o conhecimento de HTML e, principalmente, CSS. Pode acessar o projeto criado aqui: [NFT preview card component](https://cezarviana.github.io/challenge-frontend-mentor-nft-preview-card-component/).
 
 ## Descrição da tarefa
 
@@ -41,7 +41,7 @@ Um projeto para testar o conhecimento de HTML e, principalmente, CSS.
 
 <img src="./src/design/my-design-mobile.png"  style="height: 300px; text-align: center;"> <br>
 
-<img src="./src/design/my-design-hover-states.png"  style="height: 300px; text-align: center;">
+<img src="./src/design/nft-card.gif"  style="height: 300px; text-align: center;">
 </div>
 
 ## Tecnologias utilizadas
@@ -59,6 +59,10 @@ git clone <https://github.com/cezarviana/challenge-frontend-mentor-nft-preview-c
 ## O que eu aprendi?
 
 Aprendi a fazer o hover com sobreposição de background e imagem para sobrepor a imagem original, quando o cursor do mouse passa por cima. Além de adicionar uma imagem no HTML, via CSS.
+
+<div align="center">
+<img src="./src/design/nft-card.gif"  style="height: 300px; text-align: center;">
+</div>
 
 Abaixo parte do código, do aprendizado.
 
