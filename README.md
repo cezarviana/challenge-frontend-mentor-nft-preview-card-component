@@ -1,30 +1,27 @@
-# Challenge - Frontend Mentor = NFT Preview Card Component
+# ⚡ Challenge Frontend Mentor - NFT Preview Card Component
 
-Um projeto para testar o conhecimento de HTML e, principalmente, CSS. 
+## 📝 Descrição do Projeto
+Criar um layout próximo desse desafio do frontend mentor: [Frontend Mentor | NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Onde o principal desafio é construir uma página que permita a visualização de um card NFT.
+Um projeto para testar o conhecimento de HTML e, principalmente, CSS. Permitindo que seja responsivo, ou seja, funcione tanto para o desktop quanto para mobile.
+
+Criar hovers para os elementos interativos.
 
 Acesse o projeto criado aqui: [NFT preview card component](https://cezarviana.github.io/challenge-frontend-mentor-nft-preview-card-component/).
 
-## Descrição da tarefa
+## 🔎 Funcionalidades
+- Responsivo para todos os dispositivos
+- Hovers para os elementos interativos
+- Construção do HTML e CSS
 
-- Criar um layout responsivo seguindo os padrões do desafio frontend mentor: [Frontend Mentor | NFT preview card component](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Onde o principal desafio é construir uma página que permita a visualização de um card NFT.
 
-- Criar hovers para os elementos interativos.
+## 🛠️ Ferramentas utilizadas
+- **HTML:** Estruturação do projeto
+- **CSS:** Estilização do projeto, responsivo, inserção de elementos interativos
+- **Git:** Ferramenta de versionamento
 
-### Font family para ser usada no projeto:
 
-- Family: [Outfit - Google Fonts](https://fonts.google.com/specimen/Outfit?query=outfit)
-- Weight: 800
+## 🎨 Imagens do projeto
 
-### Cores
-***
---main-bg: hsl(217, 54%, 11%); <br>
---card-bg: hsl(216, 50%, 16%); <br>
---line: hsl(215, 32%, 27%); <br>
-
---title-color: hsl(0, 0%, 100%); <br>
---text-color:  hsl(215, 51%, 70%); <br>
---eth-text-color: hsl(178, 100%, 50%);
-***
 
 ### Imagens do Design a ser seguido
 <div align="center">
@@ -36,7 +33,7 @@ Acesse o projeto criado aqui: [NFT preview card component](https://cezarviana.gi
 </div>
 
 
-## Imagens do Design criado
+### Imagens do Design criado
 <div align="center">
 
 <img src="./src/design/my-design-desktop.png"  style="height: 300px; text-align: center;"> <br>
@@ -46,29 +43,39 @@ Acesse o projeto criado aqui: [NFT preview card component](https://cezarviana.gi
 <img src="./src/design/nft-card.gif"  style="height: 300px; text-align: center;">
 </div>
 
-## Tecnologias utilizadas
-- HTML
-- CSS
-- Git Bash
 
-### Como utilizar
+## 💡 Decisões do projeto
+1. **Fontes**
+- [Outfit - Google Fonts](https://fonts.google.com/specimen/Outfit?query=outfit)
 
-1 - Clone o projeto
-***
-git clone <https://github.com/cezarviana/challenge-frontend-mentor-nft-preview-card-component.git>
-***
+2. **Cores**
+```
+--main-bg: hsl(217, 54%, 11%);
+--card-bg: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
 
-## O que eu aprendi?
+--title-color: hsl(0, 0%, 100%);
+--text-color:  hsl(215, 51%, 70%);
+--eth-text-color: hsl(178, 100%, 50%);
+```
 
-Aprendi a fazer o hover com sobreposição de background e imagem para sobrepor a imagem original, quando o cursor do mouse passa por cima. Além de adicionar uma imagem no HTML, via CSS.
+
+## 💦 Dificuldades do projeto
+- Fazer a sobreposição de imagem através do CSS, como uma marca d'água.
+
+
+## 🔓 O que eu aprendi
+- Aprendi a fazer o hover com sobreposição de background e imagem para sobrepor a imagem original, quando o cursor do mouse passa por cima.
+- Adicionar uma imagem no HTML, via CSS.
+
 
 <div align="center">
 <img src="./src/design/nft-card.gif"  style="height: 300px; text-align: center;">
 </div>
 
-Abaixo parte do código, do aprendizado.
+Abaixo parte do código, do aprendizado:
 
-***
+```
 .card .image-link::before{
     content: '';
     background-color: var(--eth-text-color);
@@ -97,4 +104,26 @@ Abaixo parte do código, do aprendizado.
 .card .image-link:hover::after {
     opacity: 1;
 }
-***
+```
+
+
+## 💭 Possíveis atualizações futuras
+- Finalizar o README ✅
+
+
+## 🚀 Como rodar o projeto
+Siga os passos abaixo para executar o projeto na sua máquina:
+
+### Pré requisitos
+
+- <strong><i>Git</i></strong>: Para clonar o repositório.
+
+
+1. Abra o git, e execute os seguintes comandos
+2. **Clonar o repositório:**
+   ```bash
+   git clone https://github.com/cezarviana/challenge-frontend-mentor-nft-preview-card-component.git
+   ```
+3. npm install
+4. npm run dev
+5. **Abrir o arquivo index.html:** Abra o arquivo `index.html` em um navegador web.
